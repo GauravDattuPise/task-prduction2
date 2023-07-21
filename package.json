@@ -4,8 +4,8 @@
   "description": "Tast Management Backend Part",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node src/index.js",
+    "server": "nodemon src/index.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm start\" \"npm run client\""
   },
